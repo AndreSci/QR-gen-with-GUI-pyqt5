@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href = "./static/styles.css" />
+	<title>QR create</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="title-text">VIG QR code server</h1>
+		<form method="POST">
+			<div class="form-group">
+				<label id="text_id">ID: </label>
+				<input type="number" class="form-control" name="f_id" id="field_id" placeholder="000" />
+			</div>
+			<div class="form-group">
+				<label id="text_ic">IC: </label>
+				<input type="number" class="form-control" name="f_ic" id="field_ic" placeholder="111222" />
+			</div>
+
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
